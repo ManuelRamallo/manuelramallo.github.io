@@ -1,4 +1,5 @@
 ---
+import Image from "astro/components/Image.astro";
 import Button from "../components/button.astro";
 import Projects from "../components/home/projects.astro";
 import Separator from "../components/home/separator.astro";
@@ -21,7 +22,12 @@ import Layout from "../layouts/main.astro";
           I am a <span class="font-bold lg:text-1xl italic">Senior Android Engineer</span> and <span class="font-bold lg:text-1xl italic">Team Leader</span> specializing in Android application development, architecture, and maintenance. 
           <br class="hidden lg:block"/>
         </p>
-        <Button text="Download CV" link="" />
+        <br/>
+        <a href="public/assets/docs/CV_Manuel_Ramallo_English.pdf" download="CV_Manuel_Ramallo_English.pdf">
+          <button class="px-5 py-2 bg-black text-white rounded-full hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white hover:border hover:border-black dark:hover:border dark:hover:border-white border transition dark:bg-white dark:text-black">
+            Download CV
+          </button>
+        </a>
       </div>
       <div class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0">
         <div class="relative z-50 w-full">
@@ -31,15 +37,12 @@ import Layout from "../layouts/main.astro";
             <span
               class="relative z-20 flex items-center justify-center w-full h-full text-2xl border-8 border-white rounded-full dark:border-neutral-950 bg-neutral-100 dark:bg-neutral-900"
             >
-              <!-- <span
-                class="flex items-center justify-center w-full h-full bg-white border border-dashed rounded-full dark:bg-neutral-950 border-neutral-300 dark:border-neutral-700"
-                >👋</span> -->
-                <img
-              src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif"
-              loading="eager"
-              decoding="auto"
-              class="relative z-30 w-full aspect-[2500/2500] md:max-w-md mx-auto dark:-translate-y-0.5"
-            />
+              <img
+                src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif"
+                loading="eager"
+                decoding="auto"
+                class="relative z-30 w-8 aspect-[990/990] md:max-w-md mx-auto dark:-translate-y-0.5"
+              />
             </span>
           </div>
           <div class="relative z-30 px-10">
@@ -47,6 +50,7 @@ import Layout from "../layouts/main.astro";
               src="/assets/images/avatarme.png"
               loading="eager"
               decoding="auto"
+              alt="avatar"
               class="relative z-30 w-full aspect-[790/1189] md:max-w-md mx-auto dark:-translate-y-0.5"
             />
           </div>
