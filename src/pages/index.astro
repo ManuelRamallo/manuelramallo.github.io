@@ -21,11 +21,18 @@ import Layout from "../layouts/main.astro";
         <p class="mb-2 text-base text-neutral-600 dark:text-neutral-400">
           I am a <span class="font-bold lg:text-1xl italic">Senior Android Engineer</span> and <span class="font-bold lg:text-1xl italic">Team Leader</span> specializing in Android application development, architecture, and maintenance. 
           <br class="hidden lg:block"/>
+          <br class="hidden lg:block"/>
+          If you want to know more about me, you can also go to the <span class="font-bold lg:text-1xl italic">About me</span> section 
         </p>
         <br/>
         <a href="public/assets/docs/CV_Manuel_Ramallo_English.pdf" download="CV_Manuel_Ramallo_English.pdf">
           <button class="px-5 py-2 bg-black text-white rounded-full hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white hover:border hover:border-black dark:hover:border dark:hover:border-white border transition dark:bg-white dark:text-black">
             Download CV
+          </button>
+        </a>
+        <a href="/about">
+          <button class="px-5 py-2 bg-white text-black rounded-full hover:bg-white hover:text-black dark:hover:bg-white dark:hover:text-black hover:border hover:border-black dark:hover:border dark:hover:border-black border border-gray-300 transition dark:bg-black dark:text-white">
+            About me
           </button>
         </a>
       </div>
@@ -65,6 +72,7 @@ import Layout from "../layouts/main.astro";
 
   <Separator text="Check out my projects" />
   <Projects />
-  <Separator text="Some of my writing" />
-  <Writings />
+  <!-- TODO - WRITINGS ADD WHEN HAVE POST IN MEDIUM  -->
+  <!-- <Separator text="Some of my writing" />
+  <Writings /> -->
 </Layout>
