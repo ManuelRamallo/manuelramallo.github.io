@@ -6,4 +6,11 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://manuelramallo.github.io',
 	integrations: [tailwind()],
+  i18n: {
+    defaultLocale: "es",
+    locales: ["en", "es"],
+    routing: { 
+      prefixDefaultLocale: "es"
+    }
+  }
 });

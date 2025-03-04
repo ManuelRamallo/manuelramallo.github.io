@@ -1,6 +1,9 @@
 ---
-import menus from "../collections/menu.json";
 import Logo from "../components/logo.astro";
+import {useTranslations, getLangFromUrl} from "../i18n/utils.ts";
+
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
 ---
 
 <!-- This is an invisible div with relative position so that it takes up the height of the menu (because menu is absolute/fixed) -->
@@ -59,18 +62,24 @@ import Logo from "../components/logo.astro";
           >
           </div>
         </div>
-        {
-          menus.map((menu) => {
-            return (
-              <a
-                href={menu.url}
-                class="relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-900 dark:hover:text-white"
-              >
-                {menu.name}
-              </a>
-            )
-          })
-        }
+          <a
+            href={"/"}
+            class="relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-900 dark:hover:text-white"
+          >
+            {t("nav.home")}
+          </a>
+          <a
+            href={"/projects"}
+            class="relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-900 dark:hover:text-white"
+          >
+            {t("nav.projects")}
+          </a>
+          <a
+            href={"/about"}
+            class="relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-900 dark:hover:text-white"
+          >
+            {t("nav.about")}
+          </a>
       </div>
       <div
         id="darkToggle"
@@ -109,6 +118,26 @@ import Logo from "../components/logo.astro";
         <span class="hidden sm:inline-block">
           <span id="dayText" class="ml-2">Day mode</span>
           <span id="nightText" class="hidden ml-2">Night mode</span>
+        </span>
+      </div>
+      <div
+        id="languageToogle"
+        class="relative flex items-center pl-6 ml-4 font-medium tracking-wide cursor-pointer text-neutral-800 group dark:text-white"
+      >
+        <div
+          class="absolute left-0 flex items-center justify-center w-6 h-6 overflow-hidden border-b border-transparent horizon group-hover:border-neutral-600"
+        >
+          <img
+              class="absolute w-6 h-6 transition duration-700 transform ease"
+              src="/assets/images/spainFlag.svg"
+              loading="eager"
+              decoding="auto"
+              alt="avatar"
+            />
+        </div>
+        <span class="hidden sm:inline-block">
+          <span id="englishLang" class="ml-2">ES</span>
+          <span id="spanishLang" class="hidden ml-2">EN</span>
         </span>
       </div>
     </nav>
