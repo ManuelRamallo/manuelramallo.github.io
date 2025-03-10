@@ -1,0 +1,35 @@
+{
+    "HOME": {
+        "TITLE": "Hello, I'm Manuel Ramallo",
+        "SHORT_DESCRIPTION_PART_1": "I am a ",
+        "SHORT_DESCRIPTION_PART_2": " and ",
+        "SHORT_DESCRIPTION_PART_3": " specializing in Android application development, architecture, and maintenance",
+        "TITLE_JOB_1": "Senior Android Engineer",
+        "TITLE_JOB_2": "Team Leader",
+        "MORE_ME_MESSAGE_PART_1": "If you want to know more about me, you can also go to the ",
+        "MORE_ME_MESSAGE_PART_2": " section",
+        "MORE_ME_ACCENT": "About me",
+        "BUTTON_DOWNLOAD": "Download CV",
+        "BUTTON_ABOUT_ME": "About me",
+        "SECTION_PROJECTS": "Check out my projects",
+        "TITLE_PROJECTS": "My Projects",
+        "DESCRIPTION_PROJECTS_SECTION": "Here are some of my recent projects. I'm always working on something new, so check back often!",
+        "BUTTON_ALL_PROJECTS": "View All My Projects"
+        
+    },
+    "PROJECTS": {
+        
+    },
+    "ABOUT_ME": {
+        "TITLE": "About me",
+        "DESCRIPTION_PART_1": "Hello 👋",
+        "DESCRIPTION_PART_2": "I am a Senior Android Engineer and Team Leader with over 7 years of experience developing mobile applications. I love working with Android and always look for ways ",
+        "DESCRIPTION_PART_3": "I’ve had the opportunity to lead projects and teams, and one of my main goals is always to ensure the team is aligned, motivated, and focused on delivering the best work. Android development is my passion, and I’m excited by how we can create incredible user experiences",
+        "DESCRIPTION_PART_4": "I’m always looking to learn new things and collaborate on projects that help me grow as a developer."
+          
+        
+        
+        
+        
+    }
+}

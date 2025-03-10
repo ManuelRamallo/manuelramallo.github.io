@@ -1,0 +1,29 @@
+{
+    "HOME": {
+        "TITLE": "Hola, soy Manuel Ramallo",
+        "SHORT_DESCRIPTION_PART_1": "Soy ",
+        "SHORT_DESCRIPTION_PART_2": " y ",
+        "SHORT_DESCRIPTION_PART_3": " especializado en desarrollo, arquitectura y mantenimiento de aplicaciones Android",
+        "TITLE_JOB_1": "Ingeniero Senior Android",
+        "TITLE_JOB_2": "Jefe de Equipo",
+        "MORE_ME_MESSAGE_PART_1": "Si quieres saber más sobre mí, también puedes ir a la sección ",
+        "MORE_ME_MESSAGE_PART_2": "",
+        "MORE_ME_ACCENT": "Sobre mí",
+        "BUTTON_DOWNLOAD": "Descargar CV",
+        "BUTTON_ABOUT_ME": "Sobre mi",
+        "SECTION_PROJECTS": "Consulta mis proyectos",
+        "TITLE_PROJECTS": "Mis proyectos",
+        "DESCRIPTION_PROJECTS_SECTION": "Aquí tienes algunos de mis proyectos más recientes. Siempre estoy trabajando en algo nuevo, así que visítame a menudo",
+        "BUTTON_ALL_PROJECTS": "Ver todos mis proyectos"
+    },
+    "PROJECTS": {
+        
+    },
+    "ABOUT_ME": {
+        "TITLE": "Sobre mi",
+        "DESCRIPTION_PART_1": "Hola 👋 ",
+        "DESCRIPTION_PART_2": "Soy Ingeniero Senior de Android y Jefe de Equipo con más de 7 años de experiencia desarrollando aplicaciones móviles. Me encanta trabajar con Android y siempre busco formas de hacer aplicaciones rápidas, estables y fáciles de mantener. A lo largo de los años, he aprendido a optimizar el desarrollo, a utilizar herramientas que lo hacen más fácil y a mejorar el flujo de trabajo del equipo.",
+        "DESCRIPTION_PART_3": "He tenido la oportunidad de liderar proyectos y equipos, y uno de mis principales objetivos es siempre asegurarme de que el equipo está alineado, motivado y centrado en ofrecer el mejor trabajo. El desarrollo de Android es mi pasión, y me entusiasma cómo podemos crear experiencias de usuario increíbles.",
+        "DESCRIPTION_PART_4": "Siempre estoy buscando aprender cosas nuevas y colaborar en proyectos que me ayuden a crecer como desarrollador."
+    }
+}
