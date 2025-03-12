@@ -1,5 +1,4 @@
 ---
-import experiences from "../../collections/experiences.json";
 import AboutExperience from "../../components/about-experience.astro";
 import PageHeading from "../../components/page-heading.astro";
 
@@ -21,21 +20,21 @@ const i18n = getI18N({ currentLocale })
 
     <img src="/assets/images/Big Banner Manuel Ramallo.png" class="relative z-30 w-full my-10 rounded-xl border" />
 
-    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2>
+    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">{i18n.ABOUT_ME.SHORT_BIO_TITLE}</h2>
     <p
         class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-    🧑🏻‍💻 <b class="italic">Senior Android Engineer</b> 🤖 and <b class="italic">Team Leader</b> specializing in Android application development, architecture, and maintenance.
+    🧑🏻‍💻 <b class="italic">{i18n.ABOUT_ME.SHORT_BIO_PART_1}</b> 🤖 {i18n.ABOUT_ME.SHORT_BIO_PART_2} <b class="italic">{i18n.ABOUT_ME.SHORT_BIO_PART_3}</b> {i18n.ABOUT_ME.SHORT_BIO_PART_4}
     </p>
 
     <h2
         class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
     >
-        Experience
+        {i18n.ABOUT_ME.EXPERIENCE_TITLE}
     </h2>
     <div class="px-6 py-10">
         {
-        experiences.map((experience) => {
+        i18n.ABOUT_ME.EXPERIENCE_LIST.map((experience) => {
             return (
             <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
                 <AboutExperience
@@ -51,16 +50,16 @@ const i18n = getI18N({ currentLocale })
         }
     </div>
 
-    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Let's Connect</h2>
+    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">{i18n.ABOUT_ME.LETS_CONNECT_TITLE}</h2>
     <p
         class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-        If you want to stay up to date with my work be sure to <a
+        {i18n.ABOUT_ME.LETS_CONNECT_PART_1} <a
         href="https://www.linkedin.com/in/manuelramallodiaz/"
         target="_blank"
-        class="text-indigo-600 underline">follow me on LinkedIn</a
-        >, or you can send me an <a href="mailto:mramallodiaz96@gmail.com" target="_blank" class="text-indigo-600 underline"
+        class="text-indigo-600 underline">{i18n.ABOUT_ME.LETS_CONNECT_PART_2}</a
+        >{i18n.ABOUT_ME.LETS_CONNECT_PART_3} <a href="mailto:mramallodiaz96@gmail.com" target="_blank" class="text-indigo-600 underline"
         >email</a
-        > and I'll be sure to get back to you.
+        > {i18n.ABOUT_ME.DESCRIPTION_PART_4}
     </p>
 </section>
