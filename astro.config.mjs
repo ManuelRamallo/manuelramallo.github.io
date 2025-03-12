@@ -7,13 +7,13 @@ export default defineConfig({
   site: 'https://manuelramallo.github.io',
 	integrations: [tailwind()],
   i18n: {
-    defaultLocale: "es",
-    locales: ["en", "es"],
+    defaultLocale: "en",
+    locales: ["es", "en"],
     routing: { 
       prefixDefaultLocale: false
     },
     fallback: {
-      en: "es"
+      es: "en"
     }
   }
 });

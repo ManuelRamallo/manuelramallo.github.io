@@ -1,10 +1,14 @@
 ---
 import Button from "../button.astro";
 import Project from "../project.astro";
+import {getLangFromUrl} from "../../i18n/utils.ts";
+import { getRelativeLocaleUrl } from 'astro:i18n';
 
 import { getI18N } from "../../i18n";
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
+const lang = getLangFromUrl(Astro.url)
+const projectsUrl = getRelativeLocaleUrl(lang, "projects")
 ---
 
 <section class="max-w-4xl mx-auto px-7 lg:px-0">
@@ -34,6 +38,6 @@ const i18n = getI18N({ currentLocale })
   </div>
 
   <div class="flex items-center justify-center w-full py-5">
-    <Button text={i18n.HOME.BUTTON_ALL_PROJECTS} link="/projects" />
+    <Button text={i18n.HOME.BUTTON_ALL_PROJECTS} link={projectsUrl} />
   </div>
 </section>

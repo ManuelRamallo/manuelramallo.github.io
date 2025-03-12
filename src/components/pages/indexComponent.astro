@@ -1,11 +1,25 @@
 ---
 import Projects from "../../components/home/projects.astro";
 import Separator from "../../components/home/separator.astro";
+import {getLangFromUrl} from "../../i18n/utils.ts";
+import { getRelativeLocaleUrl } from 'astro:i18n';
 
 import { getI18N } from "../../i18n";
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
+const lang = getLangFromUrl(Astro.url)
+const aboutUrl = getRelativeLocaleUrl(lang, "about")
 
+const pdfFiles = {
+  en: 'public/assets/docs/CV_Manuel_Ramallo_English.pdf',
+  es: 'public/assets/docs/CV_Manuel_Ramallo.pdf',
+};
+const pdfDownloads = {
+  en: 'CV_Manuel_Ramallo_English.pdf',
+  es: 'CV_Manuel_Ramallo.pdf',
+}
+const pdfFile = pdfFiles[currentLocale] || pdfFiles.en; // Fallback english if language is not defined
+const pdfDownload = pdfDownloads[currentLocale] || pdfDownloads.en; // Fallback english if language is not defined
 ---
 
 <div
@@ -25,12 +39,12 @@ const i18n = getI18N({ currentLocale })
         {i18n.HOME.MORE_ME_MESSAGE_PART_1} <span class="font-bold lg:text-1xl italic">{i18n.HOME.MORE_ME_ACCENT}</span> {i18n.HOME.MORE_ME_MESSAGE_PART_2} 
       </p>
       <br/>
-      <a href="public/assets/docs/CV_Manuel_Ramallo_English.pdf" download="CV_Manuel_Ramallo_English.pdf">
+      <a href={pdfFile} download={pdfDownload}>
         <button class="px-5 py-2 bg-black text-white rounded-full hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white hover:border hover:border-black dark:hover:border dark:hover:border-white border transition dark:bg-white dark:text-black">
           {i18n.HOME.BUTTON_DOWNLOAD}
         </button>
       </a>
-      <a href="/about">
+      <a href={aboutUrl}>
         <button class="px-5 py-2 bg-white text-black rounded-full hover:bg-white hover:text-black dark:hover:bg-white dark:hover:text-black hover:border hover:border-black dark:hover:border dark:hover:border-black border border-gray-300 transition dark:bg-black dark:text-white">
           {i18n.HOME.BUTTON_ABOUT_ME}
         </button>
