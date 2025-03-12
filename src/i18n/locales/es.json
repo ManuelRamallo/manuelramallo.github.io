@@ -1,0 +1,180 @@
+{
+    "HOME": {
+        "TITLE": "Hola, soy Manuel Ramallo",
+        "SHORT_DESCRIPTION_PART_1": "Soy ",
+        "SHORT_DESCRIPTION_PART_2": " y ",
+        "SHORT_DESCRIPTION_PART_3": " especializado en desarrollo, arquitectura y mantenimiento de aplicaciones Android",
+        "TITLE_JOB_1": "Ingeniero Senior Android",
+        "TITLE_JOB_2": "Jefe de Equipo",
+        "MORE_ME_MESSAGE_PART_1": "Si quieres saber más sobre mí, también puedes ir a la sección ",
+        "MORE_ME_MESSAGE_PART_2": "",
+        "MORE_ME_ACCENT": "Sobre mí",
+        "BUTTON_DOWNLOAD": "Descargar CV",
+        "BUTTON_ABOUT_ME": "Sobre mi",
+        "SECTION_PROJECTS": "Consulta mis proyectos",
+        "TITLE_PROJECTS": "Mis proyectos",
+        "DESCRIPTION_PROJECTS_SECTION": "Aquí tienes algunos de mis proyectos más recientes. Siempre estoy trabajando en algo nuevo, así que visítame a menudo",
+        "BUTTON_ALL_PROJECTS": "Ver todos mis proyectos",
+        "PROJECTS_LIST": [
+            {
+                "name": "Proyecto #1",
+                "description": "Descripción del proyecto #1",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #2",
+                "description": "Descripción del proyecto #2",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #3",
+                "description": "Descripción del proyecto #3",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #4",
+                "description": "Descripción del proyecto #4",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #5",
+                "description": "Descripción del proyecto #5",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #6",
+                "description": "Descripción del proyecto #6",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            }
+        ]
+    },
+    "PROJECTS": {
+        "PROJECTS_TITLE": "Mis proyectos",
+        "PROJECTS_DESCRIPTION": "Estos son algunos de los proyectos en los que he estado trabajando. Me gusta mucho crear nuevos proyectos y tener nuevas ideas. Siempre estoy trabajando en algo nuevo, así que ¡visítame a menudo!",
+        "PROJECTS_LIST": [
+            {
+                "name": "Proyecto #1",
+                "description": "Descripción del proyecto #1",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #2",
+                "description": "Descripción del proyecto #2",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #3",
+                "description": "Descripción del proyecto #3",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #4",
+                "description": "Descripción del proyecto #4",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #5",
+                "description": "Descripción del proyecto #5",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #6",
+                "description": "Descripción del proyecto #6",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            }
+        ]
+    },
+    "ABOUT_ME": {
+        "TITLE": "Sobre mi",
+        "DESCRIPTION_PART_1": "Hola 👋 ",
+        "DESCRIPTION_PART_2": "Soy Ingeniero Senior de Android y Lider de Equipo con más de 7 años de experiencia desarrollando aplicaciones móviles. Me encanta trabajar con Android y siempre busco formas de hacer aplicaciones rápidas, estables y fáciles de mantener. A lo largo de los años, he aprendido a optimizar el desarrollo, a utilizar herramientas que lo hacen más fácil y a mejorar el flujo de trabajo del equipo.",
+        "DESCRIPTION_PART_3": "He tenido la oportunidad de liderar proyectos y equipos, y uno de mis principales objetivos es siempre asegurarme de que el equipo está alineado, motivado y centrado en ofrecer el mejor trabajo. El desarrollo de Android es mi pasión, y me entusiasma cómo podemos crear experiencias de usuario increíbles.",
+        "DESCRIPTION_PART_4": "Siempre estoy buscando aprender cosas nuevas y colaborar en proyectos que me ayuden a crecer como desarrollador.",
+        "SHORT_BIO_TITLE": "Biografía breve",
+        "SHORT_BIO_PART_1": "Ingeniero Senior de Android",
+        "SHORT_BIO_PART_2": "y",
+        "SHORT_BIO_PART_3": "Lider de Equipo",
+        "SHORT_BIO_PART_4": "especializado en desarrollo, arquitectura y mantenimiento de aplicaciones Android",
+        "EXPERIENCE_TITLE": "Experiencia",
+        "LETS_CONNECT_TITLE": "Conectémonos",
+        "LETS_CONNECT_PART_1": "Si quieres estar al día de mi trabajo,",
+        "LETS_CONNECT_PART_2": "sígueme en LinkedIn",
+        "LETS_CONNECT_PART_3": ", o envíame un",
+        "LETS_CONNECT_PART_4": "y me pondré en contacto contigo.",
+        "EXPERIENCE_LIST": [
+            {
+                "dates": "Febrero 2023 · Actualmente",
+                "role": "Ingeniero y Lider de equipo de Android",
+                "company": "Tyris Software",
+                "description": [
+                    "Dirigir un equipo de desarrolladores Android para desarrollar, diseñar y lanzar más de 30 aplicaciones móviles para Sportian (LaLiga Tech)",
+                    "· Desarrollo, diseño y recopilación de requisitos de nuevas funcionalidades, estructura, inicialización, MPV...",
+                    "· Planificar y organizar el equipo, las tareas, los desarrollos, etc., fijando los objetivos del proyecto.",
+                    "· Proporcionar orientación técnica y apoyo a los miembros del equipo",
+                    "· Colaboración con otros líderes y productos para garantizar los objetivos del proyecto"
+                    
+                ],
+                "logo": "/assets/images/experiences/tyris_logo.jpeg"
+            },
+            {
+                "dates": "Julio 2022 · Febrero 2023",
+                "role": "Ingeniero Senior Android",
+                "company": "Tyris Software",
+                "description": [
+                    "Amplia experiencia en desarrollo, diseño y mantenimiento Android utilizando kotlin y Jetpack Compose.",
+                    "· Desarrollo inicial de la aplicación y estructuración del proyecto",
+                    "· Desarrollo y diseño de nuevos requisitos y apoyo al desarrollo",
+                    "· Una aplicación SaaS multimodular para clubes y ligas de fútbol y rugby, aplicación oficial de LaLigaTech ahora Sportian. Realizando apps oficiales para clubes como Sevilla FC, Club America, APF, Rayo Vallecano, etc, o ligas como ProLeague, MLR."
+                ],
+                "logo": "/assets/images/experiences/tyris_logo.jpeg"
+            },
+            {
+                "dates": "Julio 2020 · Julio 2022",
+                "role": "Ingeniero Android",
+                "company": "Solutia Innovaworld Technologies",
+                "description": [
+                    "Desarrollo, diseño y mantenimiento de varias apps android con Kotlin.",
+                    "· Diferentes aplicaciones de Correos Express, como la aplicación de transportistas y envíos, gestión de buques y paquetería, gestión de camiones y cargas, etc. (CEX)",
+                    "· Una aplicación oficial para el servicio de salud de Castilla La Mancha (Sescam)",
+                    "· Una aplicación para la Gestión del Plan de Atención a Personas con Dolor Crónico (ePaidol)",
+                    "· Una aplicación con Inteligencia Artificial para detectar con antelación enfermedades y plagas en los cultivos (iAgri)"
+                ],
+                "logo": "/assets/images/experiences/solutia_logo.jpeg"
+            },
+            {
+                "dates": "Junio 2019 · Julio 2020 ",
+                "role": "Desarrollador Android",
+                "company": "Agilia Center",
+                "description": [
+                    "Desarrollo, diseño y mantenimiento de varias Apps Android con Kotlin.",
+                    "· Una aplicación para gestionar reservas de hotel y transporte para empresas (Vyootrip)",
+                    "· Una aplicación de subastas para minoristas (Glosper)",
+                    "· Una solicitud de reserva de servicios sanitarios a domicilio y asistencia sanitaria (Sanidae)"
+                ],
+                "logo": "/assets/images/experiences/agilia_center_logo.jpeg"
+            },
+            {
+                "dates": "Abril 2018 · Junio 2019 ",
+                "role": "Desarrollador Android",
+                "company": "Sycket Technologies",
+                "description": [
+                    "Desarrollo, diseño y mantenimiento de una aplicación Android con Java",
+                    "· Una aplicación para TPVs de restaurantes, cafeterías, cafés y negocios relacionados con la hostelería (Turbopos)"
+                ],
+                "logo": "/assets/images/experiences/sycket_logo.jpeg"
+            }
+        ]
+    }
+}

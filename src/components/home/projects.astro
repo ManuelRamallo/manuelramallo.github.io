@@ -1,24 +1,30 @@
 ---
-import projects from "../../collections/projects.json";
 import Button from "../button.astro";
 import Project from "../project.astro";
+import {getLangFromUrl} from "../../i18n/utils.ts";
+import { getRelativeLocaleUrl } from 'astro:i18n';
+
+import { getI18N } from "../../i18n";
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+const lang = getLangFromUrl(Astro.url)
+const projectsUrl = getRelativeLocaleUrl(lang, "projects")
 ---
 
 <section class="max-w-4xl mx-auto px-7 lg:px-0">
   <h2
     class="text-2xl font-bold leading-10 tracking-tight text-neutral-900 dark:text-neutral-100"
   >
-    My Projects
+    {i18n.HOME.TITLE_PROJECTS}
   </h2>
   <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
-    Here are some of my recent projects. I'm always working on something new, so
-    check back often!
+    {i18n.HOME.DESCRIPTION_PROJECTS_SECTION}
   </p>
   <div
     class="grid items-stretch w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 mt-7"
   >
     {
-      projects.map((project) => {
+      i18n.HOME.PROJECTS_LIST.map((project) => {
         return (
           <Project
             name={project.name}
@@ -32,6 +38,6 @@ import Project from "../project.astro";
   </div>
 
   <div class="flex items-center justify-center w-full py-5">
-    <Button text="View All My Projects" link="/projects" />
+    <Button text={i18n.HOME.BUTTON_ALL_PROJECTS} link={projectsUrl} />
   </div>
 </section>

@@ -1,0 +1,33 @@
+---
+import { languages } from '../i18n/ui';
+import { getLangFromUrl, useTranslatedPath } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
+---
+
+{
+    Object.entries(languages).map(([langPrefix]) => {
+        if(langPrefix == lang) return <></>
+
+        const flagSrc = langPrefix.includes("en") ? "/assets/images/unitedKingdomFlag.svg" : "/assets/images/spainFlag.svg";
+
+        return (
+            <a href={translatePath("/", langPrefix)} class="absolute left-0 items-center justify-center">
+                <div class="flex justify-center w-6 h-6 overflow-hidden border-b border-transparent horizon group-hover:border-neutral-600">
+                    <img
+                        class="absolute w-6 h-6 transition duration-700 transform ease"
+                        src={flagSrc}
+                        loading="eager"
+                        decoding="auto"
+                        alt="avatar"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        
+                    />    
+                </div>
+            </a>    
+        )
+    })
+}

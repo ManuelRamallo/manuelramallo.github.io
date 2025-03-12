@@ -1,0 +1,32 @@
+---
+import PageHeading from "../../components/page-heading.astro";
+import Project from "../../components/project.astro";
+
+import { getI18N } from "../../i18n";
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+
+<section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+        title={i18n.PROJECTS.PROJECTS_TITLE}
+        description={i18n.PROJECTS.PROJECTS_DESCRIPTION}
+    />
+
+    <div
+        class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-7 sm:gap-5 sm:grid-cols-2"
+    >
+        {
+        i18n.PROJECTS.PROJECTS_LIST.map((project) => {
+            return (
+            <Project
+                name={project.name}
+                description={project.description}
+                image={project.image}
+                url={project.url}
+            />
+            )
+        })
+        }
+    </div>
+</section>
