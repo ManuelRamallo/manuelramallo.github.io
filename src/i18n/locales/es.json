@@ -55,7 +55,46 @@
         ]
     },
     "PROJECTS": {
-        
+        "PROJECTS_TITLE": "Mis proyectos",
+        "PROJECTS_DESCRIPTION": "Estos son algunos de los proyectos en los que he estado trabajando. Me gusta mucho crear nuevos proyectos y tener nuevas ideas. Siempre estoy trabajando en algo nuevo, así que ¡visítame a menudo!",
+        "PROJECTS_LIST": [
+            {
+                "name": "Proyecto #1",
+                "description": "Descripción del proyecto #1",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #2",
+                "description": "Descripción del proyecto #2",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #3",
+                "description": "Descripción del proyecto #3",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #4",
+                "description": "Descripción del proyecto #4",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #5",
+                "description": "Descripción del proyecto #5",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            },
+            {
+                "name": "Proyecto #6",
+                "description": "Descripción del proyecto #6",
+                "image": "/assets/images/projects/placeholder-project.jpg",
+                "url": ""
+            }
+        ]
     },
     "ABOUT_ME": {
         "TITLE": "Sobre mi",
