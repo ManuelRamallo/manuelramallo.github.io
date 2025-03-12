@@ -1,7 +1,5 @@
-# Aria Template
+# Manuel Ramallo
 
-This is a personal blog, portfolio, or blog template created for [Astro](https://astro.build).
+This is my personal portfolio and blog
 
-Astro port of [aria](https://github.com/static-templates/aria).
-
-![Aria Template Cover Photo](https://github.com/ccbikai/astro-aria/blob/main/public/assets/images/cover.png?raw=true)
+![Manuel Ramallo Cover Readme](https://github.com/ManuelRamallo/manuelramallo.github.io/blob/main/public/assets/images/readme_image.png)
