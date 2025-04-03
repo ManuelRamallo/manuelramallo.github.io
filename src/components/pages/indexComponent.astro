@@ -11,12 +11,12 @@ const lang = getLangFromUrl(Astro.url)
 const aboutUrl = getRelativeLocaleUrl(lang, "about")
 
 const pdfFiles = {
-  en: 'public/assets/docs/CV_Manuel_Ramallo_English.pdf',
-  es: 'public/assets/docs/CV_Manuel_Ramallo.pdf',
+  en: 'public/assets/docs/EN_CV_Manuel_Ramallo_2025.pdf',
+  es: 'public/assets/docs/CV_Manuel_Ramallo_2025.pdf',
 };
 const pdfDownloads = {
-  en: 'CV_Manuel_Ramallo_English.pdf',
-  es: 'CV_Manuel_Ramallo.pdf',
+  en: 'EN_CV_Manuel_Ramallo_2025.pdf',
+  es: 'CV_Manuel_Ramallo_2025.pdf',
 }
 const pdfFile = pdfFiles[currentLocale] || pdfFiles.en; // Fallback english if language is not defined
 const pdfDownload = pdfDownloads[currentLocale] || pdfDownloads.en; // Fallback english if language is not defined
