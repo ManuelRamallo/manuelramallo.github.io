@@ -13,14 +13,14 @@
         "BUTTON_ABOUT_ME": "About me",
         "SECTION_PROJECTS": "Check out my projects",
         "TITLE_PROJECTS": "My Projects",
-        "DESCRIPTION_PROJECTS_SECTION": "Here are some of my recent projects. I'm always working on something new, so check back often!",
+        "DESCRIPTION_PROJECTS_SECTION": "Here are some of my recent projects. I'm always working on something new, so check back often! (Work in progress)",
         "BUTTON_ALL_PROJECTS": "View All My Projects",
         "PROJECTS_LIST": [
             {
-                "name": "Project #1",
-                "description": "Description of the project #1",
-                "image": "/assets/images/projects/placeholder-project.jpg",
-                "url": ""
+                "name": "CryptoTrackerApp",
+                "description": "Explore cryptocurrencies instantly",
+                "image": "/assets/images/projects/CryptoTrackerApp_Home.jpeg",
+                "url": "https://github.com/ManuelRamallo/CryptoTrackerApp"
             },
             {
                 "name": "Project #2",
