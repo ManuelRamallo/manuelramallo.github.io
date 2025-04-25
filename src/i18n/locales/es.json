@@ -59,10 +59,10 @@
         "PROJECTS_DESCRIPTION": "Estos son algunos de los proyectos en los que he estado trabajando. Me gusta mucho crear nuevos proyectos y tener nuevas ideas. Siempre estoy trabajando en algo nuevo, así que ¡visítame a menudo!",
         "PROJECTS_LIST": [
             {
-                "name": "Proyecto #1",
-                "description": "Descripción del proyecto #1",
-                "image": "/assets/images/projects/placeholder-project.jpg",
-                "url": ""
+                "name": "CryptoTrackerApp",
+                "description": "Explora criptomonedas al instante",
+                "image": "/assets/images/projects/CryptoTrackerApp_Home.jpeg",
+                "url": "https://github.com/ManuelRamallo/CryptoTrackerApp"
             },
             {
                 "name": "Proyecto #2",
